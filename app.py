@@ -629,5 +629,7 @@ def delete_favourite(fav_id):
 
 
 if __name__ == "__main__":
-    log.info("Starting Chennai EcoRouter v5 on http://0.0.0.0:5000")
-    app.run(host="0.0.0.0", port=5000, debug=False, threaded=True)
+    port = int(os.environ.get("PORT", 5000))
+    log.info("Starting Chennai EcoRouter on http://0.0.0.0:%d", port)
+    app.run(host="0.0.0.0", port=port, debug=False, threaded=True)
+
