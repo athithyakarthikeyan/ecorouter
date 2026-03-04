@@ -150,17 +150,6 @@ Total CO2 is calculated as `CO2 g/km * route distance`. The eco route is always 
 | `/api/favourites` | POST | Saves a new favourite location |
 | `/api/favourites/<id>` | DELETE | Deletes a favourite location |
 
-### calculate-routes request body
-
-```json
-{
-  "start": [13.05, 80.21],
-  "end": [12.98, 80.25],
-  "vehicleType": "Car",
-  "fuelType": "Petrol",
-  "vehicleAge": 5
-}
-```
 
 ---
 
