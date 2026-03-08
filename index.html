@@ -199,18 +199,15 @@
                             <div class="flex justify-between items-start mb-3">
                                 <div class="space-y-1">
                                     <span class="text-[9px] font-black text-green-700 bg-green-100 px-2.5 py-1 rounded-lg uppercase tracking-widest">Emissions Optimized</span>
-                                    <p class="text-[10px] text-gray-400 flex items-center gap-1"><i class="fas fa-mountain"></i> Gradient: <span id="ecoGradient">0.2°</span></p>
                                 </div>
                                 <div class="text-right">
                                     <span id="ecoCo2" class="font-black text-green-600 text-2xl tracking-tighter">-- g</span>
                                     <p class="text-[9px] text-gray-400 font-bold uppercase">Predicted CO₂</p>
                                 </div>
                             </div>
-                            <div class="grid grid-cols-4 gap-1 border-t border-gray-100 pt-3 text-[10px] font-bold">
+                            <div class="grid grid-cols-2 gap-1 border-t border-gray-100 pt-3 text-[10px] font-bold">
                                 <div class="text-center text-gray-500"><i class="far fa-clock text-green-400 mb-1 block"></i><span id="ecoTime">--</span> min</div>
-                                <div class="text-center text-gray-500 border-x border-gray-100"><i class="fas fa-road text-green-400 mb-1 block"></i><span id="ecoDist">--</span> km</div>
-                                <div class="text-center text-gray-500 border-r border-gray-100"><i class="fas fa-biohazard text-orange-400 mb-1 block"></i><span id="ecoNox">--</span> mg</div>
-                                <div class="text-center text-gray-500"><i class="fas fa-smog text-red-400 mb-1 block"></i><span id="ecoPm">--</span> mg</div>
+                                <div class="text-center text-gray-500 border-l border-gray-100"><i class="fas fa-road text-green-400 mb-1 block"></i><span id="ecoDist">--</span> km</div>
                             </div>
                         </div>
 
@@ -225,11 +222,9 @@
                                     <p class="text-[9px] text-gray-400 font-bold uppercase">Predicted CO₂</p>
                                 </div>
                             </div>
-                            <div class="grid grid-cols-4 gap-1 border-t border-gray-100 pt-3 text-[10px] font-bold">
+                            <div class="grid grid-cols-2 gap-1 border-t border-gray-100 pt-3 text-[10px] font-bold">
                                 <div class="text-center text-gray-500"><i class="far fa-clock text-blue-400 mb-1 block"></i><span id="fastTime">--</span> min</div>
-                                <div class="text-center text-gray-500 border-x border-gray-100"><i class="fas fa-road text-blue-400 mb-1 block"></i><span id="fastDist">--</span> km</div>
-                                <div class="text-center text-gray-500 border-r border-gray-100"><i class="fas fa-biohazard text-orange-400 mb-1 block"></i><span id="fastNox">--</span> mg</div>
-                                <div class="text-center text-gray-500"><i class="fas fa-smog text-red-400 mb-1 block"></i><span id="fastPm">--</span> mg</div>
+                                <div class="text-center text-gray-500 border-l border-gray-100"><i class="fas fa-road text-blue-400 mb-1 block"></i><span id="fastDist">--</span> km</div>
                             </div>
                         </div>
 
@@ -369,7 +364,28 @@
         'siruseri':[12.8420,80.2257],'perungalathur':[12.9057,80.0800],
         'vandalur':[12.8981,80.0753],'guduvanchery':[12.8461,80.0567],
         'urapakkam':[12.8643,80.0679],'chengalpattu':[12.6920,79.9760],
-        'potheri':[12.8406,80.0412],'srmist':[12.8231,80.0440]
+        'potheri':[12.8406,80.0412],'srmist':[12.8231,80.0440],
+        // Added missing areas
+        'medavakkam':[12.9172,80.1925],'koyembedu':[13.0694,80.1948],
+        'koyambedu':[13.0694,80.1948],'pallikaranai':[12.9382,80.2126],
+        'madipakkam':[12.9583,80.2000],'nanganallur':[12.9933,80.1916],
+        'alandur':[13.0033,80.2050],'pallavaram':[12.9675,80.1500],
+        'pammal':[12.9733,80.1267],'sembakkam':[12.9167,80.1167],
+        'selaiyur':[12.9167,80.1333],'chromepet':[12.9516,80.1462],
+        'valasaravakkam':[13.0500,80.1750],'virugambakkam':[13.0500,80.1950],
+        'mogappair':[13.0950,80.1700],'maduravoyal':[13.0683,80.1617],
+        'poonamallee':[13.0467,80.1167],'ambattur':[13.1133,80.1500],
+        'avadi':[13.1067,80.0983],'thirumangalam':[13.0850,80.2050],
+        'tondiarpet':[13.1167,80.2833],'royapuram':[13.1167,80.2933],
+        'tiruvottiyur':[13.1667,80.3000],'madhavaram':[13.1500,80.2333],
+        'kolathur':[13.1167,80.2167],'villivakkam':[13.1000,80.2167],
+        'korattur':[13.1000,80.1833],'pattabiram':[13.1167,80.1167],
+        'perambur':[13.1167,80.2333],'chetpet':[13.0700,80.2400],
+        'aminjikarai':[13.0750,80.2250],'arumbakkam':[13.0700,80.2100],
+        'anna nagar west':[13.0900,80.2000],'park town':[13.0827,80.2707],
+        'chennai airport':[12.9941,80.1709],'central station':[13.0827,80.2750],
+        'marina beach':[13.0500,80.2800],'phoenix marketcity':[12.9908,80.2189],
+        'alliance orchid springs':[12.8650,80.0440],'alliance university':[12.8650,80.0440]
     };
 
     const map = L.map('map', { zoomControl: false, zoomSnap: 0.1 }).setView(CHENNAI_COORDS, 12);
@@ -441,17 +457,19 @@
         if (shown) box.style.display = 'block';
 
         try {
-            var res  = await fetch('https://photon.komoot.io/api/?q=' + encodeURIComponent(query + ' Chennai') + '&lat=13.08&lon=80.27&limit=4');
+            var res  = await fetch('/api/geocode?q=' + encodeURIComponent(query));
             var data = await res.json();
             if (data.features && data.features.length) {
                 data.features.forEach(function(f){
                     var p  = f.properties;
                     var ll = [f.geometry.coordinates[1], f.geometry.coordinates[0]];
-                    addSuggestionItem(box, p.name || p.street || 'Location', ll, p.city || 'Chennai', type, input);
+                    var label = p.name || p.formatted || 'Location';
+                    var sub   = p.formatted || 'Chennai';
+                    addSuggestionItem(box, label, ll, sub, type, input);
                 });
                 box.style.display = 'block';
             }
-        } catch(e) { /* photon unavailable */ }
+        } catch(e) { /* geocode unavailable */ }
     }
 
     function addSuggestionItem(box, label, latLng, sublabel, type, input) {
@@ -562,19 +580,14 @@
 
             // Update fastest card
             safeUpdate('fastCo2',     fm.co2      + ' g');
-            safeUpdate('fastNox',     fm.nox);
-            safeUpdate('fastPm',      fm.pm);
             safeUpdate('fastDist',    fm.distance + '');
             safeUpdate('fastTime',    fm.time     + '');
             safeUpdate('fastTraffic', data.traffic.flow < 0.5 ? 'Heavy' : data.traffic.flow < 0.75 ? 'Moderate' : 'Light');
 
             // Update eco card
             safeUpdate('ecoCo2',      em.co2      + ' g');
-            safeUpdate('ecoNox',      em.nox);
-            safeUpdate('ecoPm',       em.pm);
             safeUpdate('ecoDist',     em.distance + '');
             safeUpdate('ecoTime',     em.time     + '');
-            safeUpdate('ecoGradient', data.gradient + '°');
 
             // Savings notice — only if routes genuinely differ AND eco is better
             var notice = document.getElementById('savingsNotice');
