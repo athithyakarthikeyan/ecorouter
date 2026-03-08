@@ -20,8 +20,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 log = logging.getLogger(__name__)
 
 
-TOMTOM_API_KEY  = os.getenv("TOMTOM_API_KEY",  "I3bOXTHiAZ56PI8yeq2pEQwVia9kNM4l")
-GEOCODE_API_KEY = os.getenv("GEOCODE_API_KEY", "6957c46d48960034795621tdm566e1f")
+TOMTOM_API_KEY  = os.getenv("TOMTOM_API_KEY")
+GEOCODE_API_KEY = os.getenv("GEOCODE_API_KEY")
 TOMTOM_ROUTING_URL   = "https://api.tomtom.com/routing/1/calculateRoute"
 TOMTOM_FLOW_URL      = "https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json"
 TOMTOM_INCIDENTS_URL  = "https://api.tomtom.com/traffic/services/5/incidentDetails"
